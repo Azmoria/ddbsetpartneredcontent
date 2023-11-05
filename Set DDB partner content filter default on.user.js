@@ -4,8 +4,8 @@
 // @version      0.1
 // @description  Set default partnered content
 // @author       Azmoria
-// @downloadURL  https://github.com/Azmoria/dndbeyonddark/raw/master/
-// @updateURL    https://github.com/Azmoria/dndbeyonddark/raw/master/
+// @downloadURL  https://github.com/Azmoria/ddbsetpartneredcontent/raw/main/Set%20DDB%20partner%20content%20filter%20default%20on.user.js
+// @updateURL    https://github.com/Azmoria/ddbsetpartneredcontent/raw/main/Set%20DDB%20partner%20content%20filter%20default%20on.user.js
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @require https://code.jquery.com/jquery-3.6.0.min.js
 // @match        https://www.dndbeyond.com/*
