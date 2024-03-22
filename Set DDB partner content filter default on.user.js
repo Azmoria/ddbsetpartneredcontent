@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Set DDB partner content filter default on
 // @namespace    github.com/azmoria
-// @version      0.1
+// @version      0.2
 // @description  Set default partnered content
 // @author       Azmoria
 // @downloadURL  https://github.com/Azmoria/ddbsetpartneredcontent/raw/main/Set%20DDB%20partner%20content%20filter%20default%20on.user.js
@@ -14,7 +14,7 @@
 
 (function() {
     'use strict';
-     $(`a[href*='/spells'], a[href*='/monsters'], a[href*='/feats'], a[href*='/magic-items']`).each(function(){
+     $(`.mm-mega-menu a[href*='/spells'], .mm-mega-menu a[href*='/monsters'], .mm-mega-menu a[href*='/feats'], .mm-mega-menu a[href*='/magic-items']`).each(function(){
          $(this).attr('href', `${$(this).attr('href')}?filter-partnered-content=t`)
      });
 })();
